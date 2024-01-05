@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ToDoItem({ index, task, toggleComplete }) {
   return (
-    <li role="listitem">
+    <li label="Task">
       <input
         type="checkbox"
         checked={task.completed}
